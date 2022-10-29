@@ -38,4 +38,4 @@ for proto in nm[host].all_protocols():
             open_ports = open_ports+","+str(port)
 
 
-print("Puertos abiertos: "+open_ports+" "+str(host))
+print("Open Ports: "+open_ports+" "+str(host))
